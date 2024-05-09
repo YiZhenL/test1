@@ -1,12 +1,15 @@
 .App {
   text-align: center;
+  background-color: rgb(169, 213, 249);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+h2{
+  color: rgb(253, 249, 59);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,8 +17,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: blueviolet;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +35,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
