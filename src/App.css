@@ -1,6 +1,6 @@
 .App {
-  background-color: burlywood;
   text-align: center;
+  background-color: rgb(165, 217, 251);
 }
 
 .App-logo {
@@ -14,19 +14,41 @@
   }
 }
 
+.flex_container {
+    display:flex;
+}
+
+.big-box{
+  text-align: center;
+  background-color: rgb(192, 251, 215);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* flex-wrap: wrap; 避免超出螢幕寬度 */
+  width: 99%;
+  max-width: 1440px; /* 設定最大寬度 */
+  margin: 0 auto;
+}
+
+.box {
+  width: 100%;
+  max-width: 340px;
+  background-color: rgba(255,255,255,0.1);
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+}
 .App-header {
-  background-color: #c2bcf5;
-  min-height: 100vh;
+  background-color: rgb(203, 163, 240);
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-size: cover;
-  background-position: cneter;
-  
-
 }
 
 .App-link {
@@ -37,6 +59,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

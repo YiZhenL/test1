@@ -1,21 +1,22 @@
-import './App.css';
-import MyRGBPanel from './rgbpanel/MyRGBPanel';
-import MySlider from './rgbpanel/MySlider';
-import MyCalculator from './components/MyCalculator';
-
+import "./App.css";
+import MyRGBPanel from "./components/rgb-panel/MyRGBPanel"
+import MySlider from "./components/rgb-panel/MySlider";
+import MyCalculator from "./components/calculator/MyCalculator";
+import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h3>5B0G0904 廖苡溱</h3>
-        {/* <h3>MySlider</h3>
-        <MySlider/> */}
-        <h3>MyRGBPanel</h3>
-        <MyRGBPanel/>
-        <h3>MyCalculator</h3>
-        <MyCalculator/>
-      </header>
+        <h1>5B0G0904 廖苡溱</h1>
+      <div className="flex_container">
+
+        <div className="box">
+          <h1>MySlider</h1>
+          <MySlider />
+        </div>
+
+        
+      </div>
     </div>
   );
 }

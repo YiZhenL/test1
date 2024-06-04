@@ -12,7 +12,7 @@ function MyRGBPanel() {
     const updateB = (v) => setB(v);
 
     const rgbCss = {
-        border: "1px solid blue",
+        border: "3px solid blue",
         borderRadius: "20px",
         width: "300px",
         display: "flex",
@@ -21,6 +21,8 @@ function MyRGBPanel() {
         justifyContent: "center",
         alignItems: "center",
         margin: "auto",
+        backgroundColor: "lightblue",
+
       };
   return (
     <>
