@@ -18,6 +18,10 @@ function App() {
           <h1>MyRGBPanel</h1>
           <MyRGBPanel />
         </div>
+        <div className="box">
+          <h1>MyCalculator</h1>
+          <MyCalculator />
+        </div>
 
         
       </div>
