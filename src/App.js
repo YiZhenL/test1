@@ -14,6 +14,10 @@ function App() {
           <h1>MySlider</h1>
           <MySlider />
         </div>
+        <div className="box">
+          <h1>MyRGBPanel</h1>
+          <MyRGBPanel />
+        </div>
 
         
       </div>
