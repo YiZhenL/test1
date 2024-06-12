@@ -4,7 +4,7 @@ import MySlider from "./MySlider";
 
 function MyRGBPanel() {
     const [r, setR] = useState(128);   
-    const [g, setG] = useState(128);
+    const [g, setG] = useState(128);  
     const [b, setB] = useState(128);
 
     const updateR = (v) => setR(v);
@@ -51,3 +51,4 @@ function MyRGBPanel() {
 }
 
 export default MyRGBPanel;
+//aaa
