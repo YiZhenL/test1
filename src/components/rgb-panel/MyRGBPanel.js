@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState } from "react"; 
 import MySlider from "./MySlider";
 
 function MyRGBPanel() {
