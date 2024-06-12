@@ -51,4 +51,3 @@ function MyRGBPanel() {
 }
 
 export default MyRGBPanel;
-//aa
